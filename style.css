@@ -1,0 +1,95 @@
+body{
+    background-color: midnightblue;
+}
+
+.navbar{
+    height: 55px;
+    width: auto;
+}
+
+.container-fluid{
+    text-size-adjust: 2%;
+    height: auto;
+}
+
+.info{
+    margin-left: 86px;
+    color:white; 
+}
+
+.phone{
+    color:white;
+    margin-left:100px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+}
+
+.navbar-brand{
+    color: white;
+    margin-right: 10px;
+    margin-top: 8px;
+    font-size: 18px; 
+    /* text-align: left;   */
+}
+
+#fb{
+    color:white;
+    margin-top:10px;
+    /* margin-left:40px; */
+    padding-right: -10px;
+}
+
+#insta{
+    color:white;
+    margin-bottom: 116px;
+    margin-right: 50px;
+    padding-left: 5px;
+    
+}
+
+.container{
+    background-color: midnightblue;
+    height: 180px;
+    width: auto;
+    margin-bottom: -50px;
+    padding:1px;
+}
+
+.logo{
+    margin-bottom: -100px;
+    height: 160px;
+    width: 150px;
+}
+
+@media screen and (max-width: 480px) {
+     
+    .phone{
+        margin-left: 100px;
+    }
+    .navbar-brand{
+        color:white;
+        margin-left: 35px;
+    }
+    .navbar{
+        height:140px;
+    }
+
+    .info{
+        padding-left:60px;
+        /* margin-left: 20px;
+        margin-bottom: 15px;
+        position: absolute2;
+        float:left; */
+    }
+
+    #fb{
+         color:white;
+        
+    }
+    #insta{
+        color:white;
+        margin-right:4px;
+        
+    }
+  }
